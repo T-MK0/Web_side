@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+html{
+    font-family: 'Dancing Script', 'Times New Roman', Times, serif;
+    color: rgb(239, 231, 246);
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    color: rgb(247, 246, 246);
+   
+}
+header a {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(239, 231, 231);
+    height: 50px;
+    
+}
+header #logo{
+    
+    font-family: 'Dancing Script';
+    font-size: 20px;
+    
+}
+header .colorTitle{
+    color: blue;
+}
+nav{
+    
+    width: 600px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     
+    margin: 2px;
+    margin-top: 30px;  
+}
+nav a{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.contenaire{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body #corps{
+    background: url(/media/h3.jpeg) 50% 50% no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
